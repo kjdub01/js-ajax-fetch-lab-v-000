@@ -8,8 +8,8 @@ function forkRepo() {
   const repo = 'learn-co-curriculum/js-ajax-fetch-lab';
   //use fetch to fork it!
   const url = `https://api.github.com/repos/${repo}/forks`
-  fetch ( url{
-    
+  fetch ( url, {
+    method POST
   })
   
   
