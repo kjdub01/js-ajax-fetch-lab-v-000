@@ -10,7 +10,9 @@ function forkRepo() {
   const url = `https://api.github.com/repos/${repo}/forks`
   fetch ( url, {
     method: 'POST',
-    headers: 
+    headers: {
+      authorization 
+    }
   })
   
   
