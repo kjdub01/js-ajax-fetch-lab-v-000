@@ -11,7 +11,7 @@ function forkRepo() {
   fetch ( url, {
     method: 'POST',
     headers: {
-      authorization 
+      Authorization:  
     }
   })
   
