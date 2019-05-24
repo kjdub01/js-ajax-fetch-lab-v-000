@@ -9,7 +9,8 @@ function forkRepo() {
   //use fetch to fork it!
   const url = `https://api.github.com/repos/${repo}/forks`
   fetch ( url, {
-    method: 'POST'
+    method: 'POST',
+    
   })
   
   
